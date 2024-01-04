@@ -1,0 +1,52 @@
+.box-all {
+    animation: mymove 6s linear infinite;
+    position: relative;
+}
+
+@keyframes mymove {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 0px;
+        top: 200px;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        left: 200px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: bg-color 6s linear infinite;
+}
+
+@keyframes bg-color {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: red;
+    }
+}
